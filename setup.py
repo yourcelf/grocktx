@@ -2,7 +2,7 @@ from distutils.core import setup
 from distutils.command.install import INSTALL_SCHEMES
 import os
 
-root = os.path.dirname(__file__)
+root = os.path.abspath(os.path.dirname(__file__))
 os.chdir(root)
 
 master_file = open(os.path.join(root, ".git", "refs", "heads", "master"))
@@ -14,7 +14,7 @@ master_file.close()
 for scheme in INSTALL_SCHEMES.values():
     scheme['data'] = scheme['purelib']
 
-data_dir = "data"
+data_dir = "grocktx/data"
 data = [os.path.join(data_dir, f) for f in os.listdir(data_dir)]
 
 setup(
