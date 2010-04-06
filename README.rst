@@ -19,10 +19,10 @@ GrockTX provides two main libraries: ``grocktx.parser`` and
   mint.com and wesabe.com) in order to get personal transaction data, and
   parses it with ``grocktx.parser``.  
 
-..  The libraries are especially useful when combined with the GrockTX tagging
-    server at https://grocktx.media.mit.edu, which provides user-supplied metadata
-    about the transactions to understand better what they represent.  Documentation
-    of the API for this can be found at https://grocktx.media.mit.edu/api
+The libraries are especially useful when combined with the GrockTX tagging
+server at https://grocktx.media.mit.edu, which provides user-supplied metadata
+about the transactions to understand better what they represent.  Documentation
+of the API for this can be found at https://grocktx.media.mit.edu/api
 
 ``grocktx.scraper`` depends on pycurl and BeautifulSoup.  ``grocktx.parser``
 has no external dependencies beyond python 2.5.

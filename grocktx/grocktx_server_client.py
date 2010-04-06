@@ -2,7 +2,7 @@ import json
 import urllib
 import urllib2
 
-SERVER = "http://localhost:8080/"
+SERVER = "https://grocktx.media.mit.edu/"
 grocktx_username = "admin"
 grocktx_password = "admin"
 USER_AGENT = "Example client"
