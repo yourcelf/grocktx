@@ -60,7 +60,8 @@ Example::
     {
         'channel': 'pos',
         'channel_details': {
-            'auth': "86673"
+            'auth': "86673",
+            'auth_date': "2009-11-14"
         },
         'vendor': {
             'description': "HAMILTON TRUE VALUE HD",
@@ -68,8 +69,8 @@ Example::
             'state': "MA",
             'zip': "",
             'phone': ""
-            }
-     }
+        }
+    }
 
 For more examples of the supported transaction formats and their return
 results, see ``grocktx/tests.py``.
